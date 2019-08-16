@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a0087e47ae96b804097b2323592bd847, type: 3}
+  m_Name: BeamSkill
+  m_EditorClassIdentifier: 
+  actionPrefab: {fileID: 1586595623805774570, guid: ecfc9a44311525e42bd108f78cbf7c2f,
+    type: 3}
+  locationsList: {fileID: 1594527893899577792, guid: f5fe4b1c32d147242a15c23c39b64f8d,
+    type: 3}

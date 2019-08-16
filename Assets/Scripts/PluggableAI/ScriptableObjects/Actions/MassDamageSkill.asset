@@ -1,0 +1,27 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 574e64aeca0baa946880046fe5547888, type: 3}
+  m_Name: MassDamageSkill
+  m_EditorClassIdentifier: 
+  actionPrefab:
+  - {fileID: 892377691033907412, guid: 3d81afbb3e9c6bd4ab98ed7067f6baf2, type: 3}
+  - {fileID: 4448402807094470039, guid: 34a969e707cc8e145a22cf77e5a917e0, type: 3}
+  - {fileID: 5451770265267939517, guid: e9faa66990c022c4a93f55c9432bf4e4, type: 3}
+  - {fileID: 2483925387005773782, guid: 0d2716d786f7b7946881c7a8c77f0563, type: 3}
+  - {fileID: 2773484180954708673, guid: bfcae29605458dc46b8e58d27cdc7a73, type: 3}
+  - {fileID: 9059133509734789442, guid: 8d0e28bea2d4cff4e8f5c5d0832efc04, type: 3}
+  - {fileID: 3682520537709278813, guid: 0e4a340d5c356f549951d9a33c5368eb, type: 3}
+  randomLocation: 1
+  leftLocations: {fileID: 5357545399612680168, guid: bbc301613279b254ea87f51f4c4b1c39,
+    type: 3}
+  rightLocations: {fileID: 3670352182737788288, guid: 9f7684856dfe53f409c7eb7c0654256a,
+    type: 3}

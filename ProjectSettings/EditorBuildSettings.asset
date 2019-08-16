@@ -1,0 +1,44 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/MainScreen.unity
+    guid: f55e825340b7f3246ab43ce7b6c755aa
+  - enabled: 1
+    path: Assets/Scenes/Level1.unity
+    guid: afd2691758438784fbe5190fa4539884
+  - enabled: 1
+    path: Assets/Scenes/GameOverScreen.unity
+    guid: 45132a9bbe444b541a6cfff90e666874
+  - enabled: 1
+    path: Assets/Scenes/Level2.unity
+    guid: cc51ecc5f29ea5043abfb9fd0675fbc3
+  - enabled: 1
+    path: Assets/Scenes/Level3.unity
+    guid: ffa58a0ad8bcde14f8068a776e224af9
+  - enabled: 0
+    path: 
+    guid: 00000000000000000000000000000000
+  - enabled: 1
+    path: Assets/Scenes/WinningScreen.unity
+    guid: 0185055ae7460344c9c6b37ab276d7fb
+  - enabled: 1
+    path: Assets/Scenes/Cutscene1.unity
+    guid: 002e2d3bb4d2d7844a313ccf8295297e
+  - enabled: 1
+    path: Assets/Scenes/Cutscene2.unity
+    guid: f52d8886a41ab604da69b0e6ee2e75aa
+  - enabled: 1
+    path: Assets/Scenes/Cutscene3.unity
+    guid: cd1d95ed550c316479adff2314cb3773
+  - enabled: 1
+    path: Assets/Scenes/InstructionScreen.unity
+    guid: afd4190608240784d8c5b02390c51d2a
+  m_configObjects: {}

@@ -1,0 +1,22 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0af74de36ff7ff848b960ac549b7ebc3, type: 3}
+  m_Name: MonsterSummonSkill
+  m_EditorClassIdentifier: 
+  actionPrefab: {fileID: 6941526407101536082, guid: 037cbb12d8cbd1849b5f7f3d4a8175e9,
+    type: 3}
+  animPrefab: {fileID: 6010283005195227001, guid: 2e620c8e545b8a64c8db35e7afef824b,
+    type: 3}
+  randomLocation: 1
+  locationsList: {fileID: 5449692315491248749, guid: 985be616ea39ea34691107e74b232c5f,
+    type: 3}
+  monsterAmount: 1

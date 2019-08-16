@@ -1,0 +1,32 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5141fc72b3e641e4f97130a8cae0eff4, type: 3}
+  m_Name: Level3StunState
+  m_EditorClassIdentifier: 
+  actions:
+  - {fileID: 11400000, guid: b386295fae412c14f8b50369a7d0dc15, type: 2}
+  transition:
+    decisions:
+    - {fileID: 11400000, guid: 7e50741aa7205fd49a2587bc7ea20d80, type: 2}
+    - {fileID: 11400000, guid: d8459e1b6026a5a4d883d889b0185fec, type: 2}
+    states:
+    - {fileID: 11400000, guid: 550fea1f67a260d408e04babf6b2dcb3, type: 2}
+    - {fileID: 11400000, guid: 550fea1f67a260d408e04babf6b2dcb3, type: 2}
+    - {fileID: 11400000, guid: 503d0319c31327f4497e14260102279a, type: 2}
+    - {fileID: 11400000, guid: 6eea3a22eeecf164cb898105bf7b81a6, type: 2}
+  timeout: 5
+  randomAttack: 0
+  skillCoolDown: 0
+  fixedInterval: 1
+  intervalSecond: 0
+  stateIndex: 5
+  storedTime: -1

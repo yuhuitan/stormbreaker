@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fb1d2e116206a48428b51aaa39627c1f, type: 3}
+  m_Name: RollDamageSkill
+  m_EditorClassIdentifier: 
+  actionPrefab: {fileID: 4667210894655544112, guid: 36d3dd9b7ea88854aa7f1ad06246499a,
+    type: 3}
+  randomLocation: 1
+  locationsList: {fileID: 2127484758611205137, guid: 57aed481282d8d74083507c8d96fc7d2,
+    type: 3}

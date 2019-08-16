@@ -1,0 +1,19 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9dcfdd25c3c46674aaf77e6400249a78, type: 3}
+  m_Name: Boss3SlashingSkillNormal
+  m_EditorClassIdentifier: 
+  actionPrefab: {fileID: 1148507990903895654, guid: 11d8b9c2188075b4b83cb9ad1e3bc5ac,
+    type: 3}
+  randomLocation: 0
+  locationsList: {fileID: 1825420674434112257, guid: b633dd9e46bb92c459b3147c77aee8e7,
+    type: 3}

@@ -1,0 +1,33 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5141fc72b3e641e4f97130a8cae0eff4, type: 3}
+  m_Name: Level1IdleState
+  m_EditorClassIdentifier: 
+  actions:
+  - {fileID: 11400000, guid: cb4d6d16a2dc70a4bbc501c2b6632a3d, type: 2}
+  - {fileID: 11400000, guid: 8168acf7f7fb3ec489a61c8bc8f1c98c, type: 2}
+  transition:
+    decisions:
+    - {fileID: 11400000, guid: 7e50741aa7205fd49a2587bc7ea20d80, type: 2}
+    - {fileID: 11400000, guid: 92b7e2c25865e2c499100e3a7c47e212, type: 2}
+    states:
+    - {fileID: 11400000, guid: 550fea1f67a260d408e04babf6b2dcb3, type: 2}
+    - {fileID: 11400000, guid: 550fea1f67a260d408e04babf6b2dcb3, type: 2}
+    - {fileID: 11400000, guid: 22e29fe481862c04693047d36f2f1bce, type: 2}
+    - {fileID: 11400000, guid: c98261f6117f6764296d2c22fbc012b1, type: 2}
+  timeout: 5
+  randomAttack: 1
+  skillCoolDown: 1
+  fixedInterval: 0
+  intervalSecond: 4
+  stateIndex: 0
+  storedTime: 8.647379

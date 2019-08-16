@@ -1,0 +1,40 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5141fc72b3e641e4f97130a8cae0eff4, type: 3}
+  m_Name: Level3FrenzyState
+  m_EditorClassIdentifier: 
+  actions:
+  - {fileID: 11400000, guid: 03534be74058c0143992b0a34923c7db, type: 2}
+  - {fileID: 11400000, guid: 949cde2c4b176614e84541de81a5f84c, type: 2}
+  - {fileID: 11400000, guid: e3083a94d98ca734f843a771dbf4ca7d, type: 2}
+  - {fileID: 11400000, guid: 9a21647e322ee3942b411acb28067c99, type: 2}
+  transition:
+    decisions:
+    - {fileID: 11400000, guid: 7e50741aa7205fd49a2587bc7ea20d80, type: 2}
+    - {fileID: 11400000, guid: 35a5b4fd0f4225f49a2c5a7635ad5ae0, type: 2}
+    - {fileID: 11400000, guid: ffa7bf1a893b32d449609b6f6ecb216d, type: 2}
+    states:
+    - {fileID: 11400000, guid: 550fea1f67a260d408e04babf6b2dcb3, type: 2}
+    - {fileID: 11400000, guid: c3b7ae51eb8258946985202725970652, type: 2}
+    - {fileID: 11400000, guid: 503d0319c31327f4497e14260102279a, type: 2}
+    - {fileID: 11400000, guid: c3b7ae51eb8258946985202725970652, type: 2}
+    - {fileID: 11400000, guid: b95a0aca1c234b248a4204d1a1a333d0, type: 2}
+    - {fileID: 11400000, guid: b95a0aca1c234b248a4204d1a1a333d0, type: 2}
+    - {fileID: 11400000, guid: b95a0aca1c234b248a4204d1a1a333d0, type: 2}
+    - {fileID: 11400000, guid: b95a0aca1c234b248a4204d1a1a333d0, type: 2}
+  timeout: 10
+  randomAttack: 0
+  skillCoolDown: 1
+  fixedInterval: 1
+  intervalSecond: 10
+  stateIndex: 4
+  storedTime: 26.070145

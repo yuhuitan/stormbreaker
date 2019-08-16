@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: e5331c0a1f4a2da4582253d8e45e277e, type: 3}
+  m_Name: FireSkill
+  m_EditorClassIdentifier: 
+  actionPrefab: {fileID: 2465999775519275111, guid: 7c2a70ab3bff58e438e644d7de06b3d5,
+    type: 3}
+  locationsList: {fileID: 5549071556432115202, guid: fd19f2f3d6f6d0849b03a792877d53ec,
+    type: 3}

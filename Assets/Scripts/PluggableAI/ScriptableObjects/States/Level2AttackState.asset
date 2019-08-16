@@ -1,0 +1,38 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5141fc72b3e641e4f97130a8cae0eff4, type: 3}
+  m_Name: Level2AttackState
+  m_EditorClassIdentifier: 
+  actions:
+  - {fileID: 11400000, guid: 705667805fafb7040a6e9ffea9b212eb, type: 2}
+  - {fileID: 11400000, guid: 3217a1dca2bab31449682b6a66f63e53, type: 2}
+  transition:
+    decisions:
+    - {fileID: 11400000, guid: 7e50741aa7205fd49a2587bc7ea20d80, type: 2}
+    - {fileID: 11400000, guid: 13d1ea389702ea64faf88ceb1028b8d9, type: 2}
+    - {fileID: 11400000, guid: 8bfddb157db54674a83e44313fff70d0, type: 2}
+    states:
+    - {fileID: 11400000, guid: 550fea1f67a260d408e04babf6b2dcb3, type: 2}
+    - {fileID: 11400000, guid: 550fea1f67a260d408e04babf6b2dcb3, type: 2}
+    - {fileID: 11400000, guid: 245735b07c06c3b499580735b634f7de, type: 2}
+    - {fileID: 11400000, guid: 550fea1f67a260d408e04babf6b2dcb3, type: 2}
+    - {fileID: 11400000, guid: a41a17a0f78596e43bcc90386f0162c4, type: 2}
+    - {fileID: 11400000, guid: a41a17a0f78596e43bcc90386f0162c4, type: 2}
+    - {fileID: 11400000, guid: a41a17a0f78596e43bcc90386f0162c4, type: 2}
+    - {fileID: 11400000, guid: a41a17a0f78596e43bcc90386f0162c4, type: 2}
+  timeout: 20
+  randomAttack: 1
+  skillCoolDown: 1
+  fixedInterval: 1
+  intervalSecond: 3
+  stateIndex: 1
+  storedTime: -1

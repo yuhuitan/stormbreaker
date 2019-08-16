@@ -1,0 +1,64 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5141fc72b3e641e4f97130a8cae0eff4, type: 3}
+  m_Name: Level3AttackState
+  m_EditorClassIdentifier: 
+  actions:
+  - {fileID: 11400000, guid: 58d9888fdfddfaa43965d4f7dd9ff08f, type: 2}
+  - {fileID: 11400000, guid: 825d756f8e2771a47a3fc3cb52f3214c, type: 2}
+  transition:
+    decisions:
+    - {fileID: 11400000, guid: 7e50741aa7205fd49a2587bc7ea20d80, type: 2}
+    - {fileID: 11400000, guid: 1adc6245ac31b0a46b0a37b903744905, type: 2}
+    - {fileID: 11400000, guid: 92b7e2c25865e2c499100e3a7c47e212, type: 2}
+    - {fileID: 11400000, guid: 66110849ab51e2e46b33f566f6543f2b, type: 2}
+    - {fileID: 11400000, guid: 610851d3f3864744381f644f6b21621e, type: 2}
+    states:
+    - {fileID: 11400000, guid: 550fea1f67a260d408e04babf6b2dcb3, type: 2}
+    - {fileID: 11400000, guid: 550fea1f67a260d408e04babf6b2dcb3, type: 2}
+    - {fileID: 11400000, guid: 6eea3a22eeecf164cb898105bf7b81a6, type: 2}
+    - {fileID: 11400000, guid: 6eea3a22eeecf164cb898105bf7b81a6, type: 2}
+    - {fileID: 11400000, guid: 2ca8806693746d441afd5ca96a73c0d0, type: 2}
+    - {fileID: 11400000, guid: 2ca8806693746d441afd5ca96a73c0d0, type: 2}
+    - {fileID: 11400000, guid: 6eea3a22eeecf164cb898105bf7b81a6, type: 2}
+    - {fileID: 11400000, guid: 6eea3a22eeecf164cb898105bf7b81a6, type: 2}
+    - {fileID: 11400000, guid: e510352e9bbeed44db59b70ebe2978bb, type: 2}
+    - {fileID: 11400000, guid: 550fea1f67a260d408e04babf6b2dcb3, type: 2}
+    - {fileID: 11400000, guid: 6eea3a22eeecf164cb898105bf7b81a6, type: 2}
+    - {fileID: 11400000, guid: 6eea3a22eeecf164cb898105bf7b81a6, type: 2}
+    - {fileID: 11400000, guid: 2ca8806693746d441afd5ca96a73c0d0, type: 2}
+    - {fileID: 11400000, guid: 2ca8806693746d441afd5ca96a73c0d0, type: 2}
+    - {fileID: 11400000, guid: 6eea3a22eeecf164cb898105bf7b81a6, type: 2}
+    - {fileID: 11400000, guid: 6eea3a22eeecf164cb898105bf7b81a6, type: 2}
+    - {fileID: 11400000, guid: b95a0aca1c234b248a4204d1a1a333d0, type: 2}
+    - {fileID: 11400000, guid: b95a0aca1c234b248a4204d1a1a333d0, type: 2}
+    - {fileID: 11400000, guid: b95a0aca1c234b248a4204d1a1a333d0, type: 2}
+    - {fileID: 11400000, guid: b95a0aca1c234b248a4204d1a1a333d0, type: 2}
+    - {fileID: 11400000, guid: b95a0aca1c234b248a4204d1a1a333d0, type: 2}
+    - {fileID: 11400000, guid: b95a0aca1c234b248a4204d1a1a333d0, type: 2}
+    - {fileID: 11400000, guid: b95a0aca1c234b248a4204d1a1a333d0, type: 2}
+    - {fileID: 11400000, guid: b95a0aca1c234b248a4204d1a1a333d0, type: 2}
+    - {fileID: 11400000, guid: b95a0aca1c234b248a4204d1a1a333d0, type: 2}
+    - {fileID: 11400000, guid: b95a0aca1c234b248a4204d1a1a333d0, type: 2}
+    - {fileID: 11400000, guid: b95a0aca1c234b248a4204d1a1a333d0, type: 2}
+    - {fileID: 11400000, guid: b95a0aca1c234b248a4204d1a1a333d0, type: 2}
+    - {fileID: 11400000, guid: b95a0aca1c234b248a4204d1a1a333d0, type: 2}
+    - {fileID: 11400000, guid: b95a0aca1c234b248a4204d1a1a333d0, type: 2}
+    - {fileID: 11400000, guid: b95a0aca1c234b248a4204d1a1a333d0, type: 2}
+    - {fileID: 11400000, guid: b95a0aca1c234b248a4204d1a1a333d0, type: 2}
+  timeout: 15
+  randomAttack: 1
+  skillCoolDown: 1
+  fixedInterval: 0
+  intervalSecond: 10
+  stateIndex: 1
+  storedTime: -1
